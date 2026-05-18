@@ -1,0 +1,9 @@
+jobid_null_retry_count=4
+total_attempts=5
+final_success_attempt=5
+timed_out=false
+jobid_null_hits=
+attempt=1, elapsed_seconds=1.2
+attempt=2, elapsed_seconds=31.2
+attempt=3, elapsed_seconds=61.2
+attempt=4, elapsed_seconds=91.2

@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"执行 AE 系统全流程，产出共享数据（HAWB/MAWB等）","331201","Plan B - 阶段 1: AE Workflow 全流程","tests.ui.e2e","2026-05-15","passed","2026-05-15","","test_ae_xc_wms_split","",""
+"执行 XC 系统全流程，使用 AE 产出的 HAWB","358916","Plan B - 阶段 2: XC Workflow 全流程","tests.ui.e2e","2026-05-15","passed","2026-05-15","","test_ae_xc_wms_split","",""
+"执行 WMS 系统全流程，使用共享的 HAWB","57599","Plan B - 阶段 3: WMS Workflow 全流程","tests.ui.e2e","2026-05-15","broken","2026-05-15","","test_ae_xc_wms_split","",""
