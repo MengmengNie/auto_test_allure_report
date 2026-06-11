@@ -1,0 +1,1 @@
+page already closed, skip failure screenshot
