@@ -1,0 +1,31 @@
+[UAT-TRACE] enter import_booking_and_complete_shipment_detail hawb=MMTEST26061110
+[UAT-TRACE] leave import_booking_and_complete_shipment_detail hawb=MMTEST26061110
+[UAT-TRACE] enter create_flight_schedule_and_capture_flight_task_id
+
+[Flight Task ID] 781479
+
+[Flight Task ID] 781479
+[UAT-TRACE] leave create_flight_schedule_and_capture_flight_task_id flight_task_id=781479
+[UAT-TRACE] enter assert_imported_hawb_ready_for_space_assign hawb=MMTEST26061110
+
+[SC Job ID] HAWB: MMTEST26061110  SC Job ID: 2606111525218392
+[UAT-TRACE] leave assert_imported_hawb_ready_for_space_assign hawb=MMTEST26061110 sc_job_id=2606111525218392
+[UAT-TRACE] enter complete_space_assign_for_hawb_on_flight_task hawb=MMTEST26061110 flight_task_id=781479
+[UAT-TRACE] space_assign page opened for hawb=MMTEST26061110
+[UAT-TRACE] hawb visible in left queue hawb=MMTEST26061110
+[UAT-TRACE] selecting hawb in left queue hawb=MMTEST26061110
+[UAT-TRACE] selecting flight by task id flight_task_id=781479
+[UAT-TRACE] selected flight identifier=781479
+[UAT-TRACE] assigning hawb to selected flight hawb=MMTEST26061110 flight_identifier=781479
+[UAT-TRACE] assign_selected_booking_to_flight finished hawb=MMTEST26061110
+[UAT-TRACE] opening assign MAWB dialog flight_identifier=781479
+[UAT-TRACE] trying existing MAWB first
+[UAT-TRACE] MAWB ready mawb=083-00000361
+[UAT-TRACE] copied booking row to MAWB row
+[UAT-TRACE] confirming assign MAWB dialog
+[UAT-TRACE] assign MAWB dialog closed
+[UAT-TRACE] filtering right-side HAWB hawb=MMTEST26061110
+[UAT-TRACE] ctrl-selecting right-side HAWB hawb=MMTEST26061110
+[UAT-TRACE] clicking Complete Space Assign hawb=MMTEST26061110
+[UAT-TRACE] Complete Space Assign click flow returned hawb=MMTEST26061110
+[UAT-TRACE] space assign completed asserted hawb=MMTEST26061110
