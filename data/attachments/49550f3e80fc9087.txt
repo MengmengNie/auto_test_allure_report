@@ -1,1 +1,0 @@
-/home/mengmengnie/autotest/tests/testdata/import_booking/runtime/AE_GENERAL_TEMPLATE-UAT_MMTEST26061110.xlsx
