@@ -1,0 +1,6 @@
+Locator expected to be visible
+Actual value: None
+Error: element(s) not found 
+Call log:
+  - Expect "to_be_visible" with timeout 15000ms
+  - waiting for locator(".el-message:has-text(\"do success\"), .el-message--success:has-text(\"success\")").first
