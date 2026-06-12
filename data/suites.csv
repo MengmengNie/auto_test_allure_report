@@ -1,4 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"执行 WMS 系统全流程，使用共享的 HAWB","153643","Plan B - 阶段 3: WMS Workflow 全流程","tests.ui.e2e","2026-06-11","passed","2026-06-11","","test_ae_xc_wms_split","",""
-"执行 XC 系统全流程，使用 AE 产出的 HAWB","278947","Plan B - 阶段 2: XC Workflow 全流程","tests.ui.e2e","2026-06-11","passed","2026-06-11","","test_ae_xc_wms_split","",""
-"执行 AE 系统全流程，产出共享数据（HAWB/MAWB等）","494605","Plan B - 阶段 1: AE Workflow 全流程","tests.ui.e2e","2026-06-11","passed","2026-06-11","","test_ae_xc_wms_split","",""
+"执行 Billing Invoice 全流程，使用 AE 产出的 HAWB（依赖 XC Import Confirm 完成）。","233831","阶段 4: Billing Invoice 全流程","tests.ui.e2e","2026-06-12","broken","2026-06-12","","test_ae_xc_wms_billing_workflow","",""
+"执行 WMS 系统全流程，使用共享的 HAWB","142828","阶段 3: WMS Workflow 全流程","tests.ui.e2e","2026-06-12","passed","2026-06-12","","test_ae_xc_wms_billing_workflow","",""
+"执行 AE 系统全流程，产出共享数据（HAWB/MAWB等）","359394","阶段 1: AE Workflow 全流程","tests.ui.e2e","2026-06-12","passed","2026-06-12","","test_ae_xc_wms_billing_workflow","",""
+"执行 XC 系统全流程，使用 AE 产出的 HAWB","284688","阶段 2: XC Workflow 全流程","tests.ui.e2e","2026-06-12","passed","2026-06-12","","test_ae_xc_wms_billing_workflow","",""
